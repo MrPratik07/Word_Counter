@@ -1,0 +1,18 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+
+}
+
+.text-container{
+    display: flex;
+}
+
+#evaluatedText{
+    height: 50%
+}
+
+#wordCount{
+    color: brown;
+}

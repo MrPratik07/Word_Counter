@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word count</title>
+    <link rel="stylesheet" href="./word.css"/>
+    
+</head>
+<body onchange="countChangeHandler()">
+    <div class="main-container">
+        <div class="text-container">
+            <h3>Count Words:</h3>
+            <h3 id="wordCount">0</h3>
+        </div>
+        <textarea id="evaluatedText" oninput="countChangeHandler()" placeholder="write you Essay here">
+        </textarea>
+    </div>
+    <script src="./word.js" type="text/javascript"></script>
+</body>
+</html>
